@@ -8,10 +8,11 @@ Sklearn
 
 ### `Project Tools and Frameworks`
 
-*1. use javascript react libray.
-*2. use bootstarp css framework.
-*3.use font awesome icon.
-*4.use react rating.
-*5.use react routing.
+ Markup :     1. use javascript react libray.
+              2. use bootstarp css framework.
+              3.use font awesome icon.
+              4. use react rating.
+              5.use react routing.
+
 
 
