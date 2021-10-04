@@ -9,10 +9,10 @@ const Header = () => {
 
     const searchIcon = <FontAwesomeIcon icon={faSearch} />;
     return (
-      <Container fluid className="header bg-light pt-5 pb-5">
+      <Container fluid className="header header-bg pt-5 pb-5">
         <Container>
           <Row>
-            <Col xs={6}>
+            <Col  xs={12} md={6}>
               <div className="header-content">
                 <h1>Learn more and make success the result of perfection.</h1>
                 <p>
@@ -26,12 +26,12 @@ const Header = () => {
                   aria-label="Search Your Need To Course"
                   aria-describedby="basic-addon2"
                 />
-                <InputGroup.Text className="bg-danger search-btn text-white" id="basic-addon2">
+                <InputGroup.Text className=" search-btn text-dark" id="basic-addon2">
                   {searchIcon}
                 </InputGroup.Text>
               </InputGroup>
             </Col>
-            <Col xs={6}>
+            <Col xs={12} md={6}>
               <div className="">
                 <img className="img-fluid" src={banner} alt="" />
               </div>

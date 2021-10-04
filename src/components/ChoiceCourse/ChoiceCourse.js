@@ -12,13 +12,20 @@ const ChoiceCourse = () => {
     return (
       <Container fluid className="pt-5 pb-5">
         <Container>
-          <div className="category d-flex pb-5">
-            <h2>Get choice of your course</h2>
-            <Button variant="danger" size="lg">
-              <NavLink to="/courses" className="course-view"> View All Courses</NavLink>
-            </Button>
+          <div className="category d-flex pb-5 row">
+            <div className="col-12 col-md-12 col-lg-9">
+              <h2>Get choice of your course</h2>
+            </div>
+            <div className="col-12 col-md-12 col-lg-3">
+              <Button className="btn-bg " size="lg">
+                <NavLink to="/courses" className="course-view text-dark">
+                  {" "}
+                  View All Courses
+                </NavLink>
+              </Button>
+            </div>
           </div>
-          <Row xs={1} md={4} className="g-4">
+          <Row xs={1} md={2} lg={4} className="g-4">
             {course?.slice(0, 4).map((course) => (
               <ChoiceCourseItem
                 courses={course}

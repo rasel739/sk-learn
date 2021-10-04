@@ -11,7 +11,7 @@ const About = () => {
             <h1>About Us</h1>
           </div>
           <Row>
-            <Col xs={6}>
+            <Col xs={12} md={6}>
               <div className="about-content">
                 <p className="">
                   This is often referred to as “unpacking” the standards. When
@@ -30,16 +30,18 @@ const About = () => {
                   standards.
                 </p>
               </div>
-              <NavLink to="/contact">
-                <Button className="bg-danger about-btn" size="lg">
-                  Send Email
-                </Button>
-              </NavLink>
+              <Col xs={5} md={3} className="mb-5">
+                <NavLink to="/contact">
+                  <Button className="btn-bg text-dark about-btn" size="lg">
+                    Send Email
+                  </Button>
+                </NavLink>
+              </Col>
             </Col>
-                    <Col xs={6}>
-                        <div className="">
-                            <img src={about} alt="" />
-                        </div>
+            <Col xs={12} md={6}>
+              <div className="">
+                <img src={about} alt="" />
+              </div>
             </Col>
           </Row>
         </Container>

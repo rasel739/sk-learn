@@ -8,7 +8,7 @@ const ChoiceCourseItem = (props) => {
 
     return (
       <CardGroup>
-        <Card className="p-3 full-card">
+        <Card className="p-3 full-card ">
           <div className="card-main">
             <Card.Img className="top card-img" src={image} />
           </div>

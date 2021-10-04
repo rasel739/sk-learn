@@ -17,7 +17,7 @@ const Feature = () => {
       <Container fluid className="pt-5 pb-5">
         <Container>
           <Row>
-            <Col xs={8}>
+            <Col xs={12} md={8} className="mb-5">
               <div className="feature-content">
                 <h2>Learn Adobe CC with our Masterclass</h2>
                 <p>
@@ -44,7 +44,7 @@ const Feature = () => {
                 </div>
               </div>
             </Col>
-            <Col xs={4}>
+            <Col xs={12} md={4}>
               <CardGroup>
                 <Card className="p-3 full-card">
                   <div className="card-main">
@@ -73,7 +73,7 @@ const Feature = () => {
                     </Card.Text>
                   </Card.Body>
                   <div className="d-grid gap-2">
-                    <Button variant="danger" size="lg">
+                    <Button className="btn-bg text-dark" size="lg">
                       Buy Now
                     </Button>
                   </div>

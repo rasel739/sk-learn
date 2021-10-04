@@ -1,6 +1,4 @@
-.card-main{
 
-}
 
 .card-main>.card-img{
     width: 100%;
@@ -10,6 +8,7 @@
 
 .full-card{
     border-radius: 1rem;
+    background-color:#faeee7;
 }
 
 .card__title{

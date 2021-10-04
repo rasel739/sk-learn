@@ -15,7 +15,7 @@ const JoinToday = () => {
                 Our online video courses give you the freedom to learn remotely,
                 and our experts will guide you properly.
               </Card.Text>
-              <Button variant="danger">Join Today</Button>
+              <Button className="btn-bg text-dark">Join Today</Button>
             </Card.Body>
           </Card>
         </Container>

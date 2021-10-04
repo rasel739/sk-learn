@@ -7,7 +7,7 @@ const Footer = () => {
       <Container fluid className="pt-5 pb-3 bg-dark">
         <Container>
           <div className="">
-            <Table borderless className=" text-white">
+            <Table borderless responsive className=" text-white">
               <thead>
                 <tr>
                   <th>Home</th>
@@ -39,7 +39,9 @@ const Footer = () => {
             </Table>
           </div>
           <div className="border-top pt-3">
-            <p className="text-white">&copy; 2021 SKlearn Education Private Limited. All rights reserved</p>
+            <p className="text-white">
+              &copy; 2021 SKlearn Education Private Limited. All rights reserved
+            </p>
           </div>
         </Container>
       </Container>

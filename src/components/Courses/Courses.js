@@ -11,14 +11,14 @@ const Courses = () => {
           <div className="category d-flex pb-5">
             <h2>All Course</h2>
           </div>
-          <div className="col-6 mb-5">
+          <div className="col-12 col-md-6 mb-5">
             <InputGroup className="mb-3">
               <FormControl
                 placeholder="Search Your Course"
                 aria-label="Recipient's username"
                 aria-describedby="basic-addon2"
               />
-              <InputGroup.Text className="bg-danger text-white" id="basic-addon2">Search</InputGroup.Text>
+              <InputGroup.Text className="btn-bg text-dark" id="basic-addon2">Search</InputGroup.Text>
             </InputGroup>
           </div>
           <Row xs={1} md={3} className="g-4">

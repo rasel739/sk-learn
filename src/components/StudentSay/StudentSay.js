@@ -12,7 +12,7 @@ const StudentSay = () => {
             <h1>What our students have to say</h1>
           </div>
           <Row>
-            <Col xs={6}>
+            <Col xs={12} md={6} className="mb-5">
               <div className="student">
                 <div className="student-body">
                   <div className="d-flex student-image">
@@ -33,7 +33,7 @@ const StudentSay = () => {
                 </div>
               </div>
             </Col>
-            <Col xs={6}>
+            <Col xs={12} md={6}>
               <div className="student">
                 <div className="student-body">
                   <div className="d-flex student-image">

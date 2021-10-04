@@ -5,7 +5,7 @@ const Contact = () => {
     return (
       <Container fluid className="pt-5 pb-5 ">
         <Container>
-          <div className="w-75 mx-auto">
+          <div className="w-100 w-md-75 mx-auto">
             <Form>
               <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
@@ -26,7 +26,7 @@ const Contact = () => {
                 <Form.Label>Write Your Massage</Form.Label>
                 <Form.Control as="textarea" rows={3} />
               </Form.Group>
-              <Button variant="danger" type="submit">
+              <Button className="btn-bg text-dark" type="submit">
                 Submit
               </Button>
             </Form>

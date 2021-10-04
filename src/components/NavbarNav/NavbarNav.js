@@ -12,9 +12,9 @@ const NavbarNav = () => {
     const searchIcon = <FontAwesomeIcon icon={faSearch} />;
     
     return (
-      <Container fluid className="bg-light">
+      <Container fluid className="navbar-bg">
         <Container>
-          <Navbar bg="light" expand="lg">
+          <Navbar className="navbar-bg" expand="lg">
             <Container fluid>
               <Navbar.Brand href="#">
                 <span className="text-success sk">SK</span>
@@ -74,9 +74,9 @@ const NavbarNav = () => {
                   </Nav.Link>
                 </Nav>
                 <Form className="d-flex">
-                  <Button variant="outline-success">{searchIcon}</Button>
+                  <Button className="btn-bg text-dark">{searchIcon}</Button>
                   <Button variant="white ms-2 ">{cartIcon}</Button>
-                  <Button variant="danger ms-2">Register</Button>
+                  <Button className="btn-bg ms-2 text-dark">Register</Button>
                   <Button variant="primary ms-2">Login</Button>
                 </Form>
               </Navbar.Collapse>
