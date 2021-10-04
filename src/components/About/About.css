@@ -1,0 +1,17 @@
+.about-title{
+    text-align:left;
+    border-bottom:1px solid green;
+    margin-bottom:1rem;
+}
+.about-title>h1{
+    font-weight:bold;
+    color:rgb(53, 11, 202);
+}
+
+.about-content{
+    text-align:justify;
+}
+
+.about-btn{
+    margin-left:-26rem;
+}

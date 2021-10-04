@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "Software Development From A to Z Beginner",
+    "star": 4.9,
+    "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80",
+    "price": 200,
+    "delPrice": 220,
+    "view": 35000
+  },
+  {
+    "id": 2,
+    "name": "Graphic Design Masterclass for Beginning",
+    "star": 4.3,
+    "image": "https://image.freepik.com/free-photo/front-view-male-student-wearing-black-backpack-holding-copybooks-files-blue-wall_140725-42636.jpg",
+    "price": 150,
+    "delPrice": 200,
+    "view": 10000
+  },
+  {
+    "id": 3,
+    "name": "The Complete JavaScript Course Beginner",
+    "star": 5,
+    "image": "https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/https://coursera-course-photos.s3.amazonaws.com/e3/6763af064740cda1ac7cc01d134f04/GettyImages-1202278643_1200x1200.png?auto=format%2Ccompress&dpr=1",
+    "price": 300,
+    "delPrice": 350,
+    "view": 800000
+  },
+  {
+    "id": 4,
+    "name": "Learn Python Programming Beginner",
+    "star": 4,
+    "image": "https://brainstemu.com/wp-content/uploads/2021/08/Fall-Class-Ads-2.png",
+    "price": 180,
+    "delPrice": 190,
+    "view": 50000
+  },
+  {
+    "id": 5,
+    "name": "Statistics Data Science and Business Analysis",
+    "star": 4.9,
+    "image": "https://miro.medium.com/max/2000/1*7CHIVJnx4tFfLBDskjH_Rw.png",
+    "price": 200,
+    "delPrice": 230,
+    "view": 30000
+  },
+  {
+    "id": 6,
+    "name": "Learn HTML5 Programming Beginning",
+    "star": 3.9,
+    "image": "https://www.mangahigh.com/f3faecd5e311da490a2a5eb6840cd014/assets/img/home/mhw-2020-products-loggedout-homepage-video-thumb.png",
+    "price": 300,
+    "delPrice": 360,
+    "view": 35000
+  },
+  {
+    "id": 7,
+    "name": "Learn English Spoken",
+    "star": 4.2,
+    "image": "https://www.pngitem.com/pimgs/m/330-3304862_english-teacher-png-student-stock-photo-png-transparent.png",
+    "price": 50,
+    "delPrice": 100,
+    "view": 55000
+  },
+  {
+    "id": 8,
+    "name": "Machine Learning",
+    "star": 4.8,
+    "image": "https://www.rrc.ca/part-time/wp-content/uploads/sites/50/2018/08/PythonMachineLearning1-1024x675-27t3r7p.jpg",
+    "price": 400,
+    "delPrice": 500,
+    "view": 30000
+  },
+  {
+    "id": 9,
+    "name": "CSS Learning",
+    "star": 3.5,
+    "image": "https://cdn-e-careers.scdn5.secure.raxcdn.com/images/kids-coding-introduction-to-html-css-javascript.jpg",
+    "price": 60,
+    "delPrice": 100,
+    "view": 15000
+  }
+]

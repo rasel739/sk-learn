@@ -1,0 +1,18 @@
+.student{
+    border:1px solid red;
+    padding:1rem;
+    border-radius: 1rem;
+}
+
+.student-image{
+    width:5rem;
+    height:5rem;
+    
+}
+.student-image>img{
+    border-radius: 100%;
+}
+.student-image>p{
+text-align:left;
+}
+

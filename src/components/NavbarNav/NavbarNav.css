@@ -1,0 +1,22 @@
+.selected{
+    text-decoration:none;
+    background-color:tomato;
+    padding:.5rem 1rem;
+    font-size:1.2rem;
+    border-radius: 1rem;
+    border-bottom:3px solid blue;
+}
+
+.nav-unselected{
+    text-decoration:none;
+    color:rgb(15, 14, 14);
+     font-size:1.2rem;
+}
+
+.sk{
+    font-size:2.2rem;
+    font-weight: bold;
+}
+.learn{
+    font-weight: bold;
+}

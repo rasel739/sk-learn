@@ -1,0 +1,50 @@
+ [
+   {
+     "id": 1,
+     "name": "Design",
+     "information": "Learn how to design your website. We have a wide range of designing courses from which you can select the best that suits you.",
+     "image": "https://freepngimg.com/thumb/web_design/2-2-web-design-png-image.png"
+   },
+   {
+     "id": 2,
+     "name": "Development",
+     "information": "Learn how to develop your software and websites. We provide you with a wide range of different development courses that will help you to learn more.",
+     "image": "https://freepngimg.com/thumb/web_development/7-2-web-development-png-pic.png"
+   },
+   {
+     "id": 3,
+     "name": "IT & Software",
+     "information": "If you want to learn something new in IT and Software, then this is the right place to help you with different IT and Software courses from which you can get the one for you.",
+     "image": "https://freepngimg.com/thumb/software/27227-6-software-free-download.png"
+   },
+   {
+     "id": 4,
+     "name": "Business",
+     "information": "If you want to be a successful business owner, our courses will help you do so. Book your course now.",
+     "image": "https://image.freepik.com/free-photo/group-diverse-people-having-business-meeting_53876-25060.jpg"
+   },
+   {
+     "id": 5,
+     "name": "Marketing",
+     "information": "In this world, marketing is essential to learn how to do excellent marketing with our courses and get your business on top.",
+     "image": "https://freepngimg.com/thumb/marketing/24866-2-marketing-hd.png"
+   },
+   {
+     "id": 6,
+     "name": "Photography",
+     "information": "The most successful business today is photography, but you should know how to get it on top. Our courses will help you to pull yourself up.",
+     "image": "https://www.freepnglogos.com/uploads/photography-logo-png/photography-logo-camera-logo-png-download-clip-art-clip-7.png"
+   },
+   {
+     "id": 7,
+     "name": "Health & Care",
+     "information": "The health and care industry has increased so far. You will need to buck yourself up to catch with, and this can be done with our courses.",
+     "image": "https://freepngimg.com/thumb/health/23005-5-health-photos.png"
+   },
+   {
+     "id": 8,
+     "name": "Technology",
+     "information": "There are various technologies which you need to learn if you want to stay in the race. Our courses will help you to learn more.",
+     "image": "https://freepngimg.com/thumb/technology/7-2-technology-picture.png"
+   }
+ ]

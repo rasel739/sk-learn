@@ -1,0 +1,17 @@
+.card-main{
+
+}
+
+.card-main>.card-img{
+    width: 100%;
+    height:15rem;
+    border-radius:1rem;
+}
+
+.full-card{
+    border-radius: 1rem;
+}
+
+.card__title{
+    text-align: left;
+}

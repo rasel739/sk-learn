@@ -1,0 +1,21 @@
+.header-content{
+text-align: left;
+
+}
+
+.header-content>h1{
+
+    font-size:3rem;
+    margin-bottom:2rem;
+}
+
+.header-content>p{
+    font-size:1.2rem;
+    color:rgb(27, 127, 214);
+}
+
+.search-btn{
+
+    height:3rem;
+
+}
