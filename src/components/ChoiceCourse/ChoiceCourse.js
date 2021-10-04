@@ -18,8 +18,8 @@ const ChoiceCourse = () => {
               <NavLink to="/courses" className="course-view"> View All Courses</NavLink>
             </Button>
           </div>
-          <Row xs={1} md={3} className="g-4">
-            {course?.slice(0, 3).map((course) => (
+          <Row xs={1} md={4} className="g-4">
+            {course?.slice(0, 4).map((course) => (
               <ChoiceCourseItem
                 courses={course}
                 key={course.id}
