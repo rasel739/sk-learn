@@ -4,6 +4,7 @@ import './NavbarNav.css';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faShoppingCart,faSearch} from "@fortawesome/free-solid-svg-icons";
 import { NavLink } from 'react-router-dom';
+import LoginFrom from '../LoginFrom/LoginFrom';
 
 
 
@@ -76,7 +77,7 @@ const NavbarNav = () => {
                 <Form className="d-flex">
                   <Button className="btn-bg text-dark">{searchIcon}</Button>
                   <Button variant="white ms-2 ">{cartIcon}</Button>
-                  <Button className="btn-bg ms-2 text-dark">Register</Button>
+                  <LoginFrom></LoginFrom>
                   <Button variant="primary ms-2">Login</Button>
                 </Form>
               </Navbar.Collapse>

@@ -1,6 +1,6 @@
 import React from 'react';
 import './Courses.css';
-import { Button, Container, FormControl, InputGroup, Row } from "react-bootstrap";
+import {  Container, FormControl, InputGroup, Row, Spinner } from "react-bootstrap";
 import useCourse from '../Hook/useCourse';
 import CoursesItem from '../CoursesItem/CoursesItem';
 const Courses = () => {
@@ -18,14 +18,22 @@ const Courses = () => {
                 aria-label="Recipient's username"
                 aria-describedby="basic-addon2"
               />
-              <InputGroup.Text className="btn-bg text-dark" id="basic-addon2">Search</InputGroup.Text>
+              <InputGroup.Text className="btn-bg text-dark" id="basic-addon2">
+                Search
+              </InputGroup.Text>
             </InputGroup>
           </div>
-          <Row xs={1} md={3} className="g-4">
-            {course?.map((course) => (
-              <CoursesItem courses={course} key={course.id}></CoursesItem>
-            ))}
-          </Row>
+          {course.length === 0 ? (
+            <Spinner animation="border" role="status">
+              <span className="visually-hidden">Loading...</span>
+            </Spinner>
+          ) : (
+            <Row xs={1} md={3} className="g-4">
+              {course?.map((course) => (
+                <CoursesItem courses={course} key={course.id}></CoursesItem>
+              ))}
+            </Row>
+          )}
         </Container>
       </Container>
     );

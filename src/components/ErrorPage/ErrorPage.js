@@ -6,7 +6,8 @@ import './ErrorPage.css';
 
 const ErrorPage = () => {
     return (
-      <Container fluid className="pt-5 pb-5">
+      <Container fluid className="pt-5 pb-5 bg-light error">
+        <div className="error-div"></div>
         <Container>
           <div className="error-page">
             <h1>OoPs!</h1>
