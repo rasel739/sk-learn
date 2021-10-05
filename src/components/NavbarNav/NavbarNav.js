@@ -13,9 +13,9 @@ const NavbarNav = () => {
     const searchIcon = <FontAwesomeIcon icon={faSearch} />;
     
     return (
-      <Container fluid className="navbar-bg">
+      <Container fluid className="navbar-bg pb-5">
         <Container>
-          <Navbar className="navbar-bg" expand="lg">
+          <Navbar className="navbar-bg" expand="lg" fixed="top">
             <Container fluid>
               <Navbar.Brand href="#">
                 <span className="text-success sk">SK</span>
